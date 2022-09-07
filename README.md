@@ -69,8 +69,12 @@ Verschil creëren zodat je weet wanneer je een link hebt. Dingen zoals de nav ba
 
   #### Muis en Toetsenbord 
   Hier korte omschrijving (met indien nodig afbeeldingen)
+  
+  Je kon lang niet door alles heen navigeren de toetsenbord manier slaat knoppen over die je wel kan zien. Ook is er geen duidelijke aanwijzing van waar je focus zit en op welk blokje je bent.
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  
+  een duidelijke focus state te maken zodat je weet waar je bent en er moet de mogelijk heid komen om ook over alle knoppen heen te kunnnen navigeren
 
 
   #### Motoriek (shocks, elastiekjes)
