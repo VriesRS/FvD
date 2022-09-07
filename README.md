@@ -60,9 +60,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenreader
   Hier korte omschrijving (met indien nodig afbeeldingen)
-
+De screenreader las gelijk de complete pagina voor. Je merkte geen verschil tussen headings en knoppen met links. De nav bar werdt niet voorgelezen.
+  
+  
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+Verschil creëren zodat je weet wanneer je een link hebt. Dingen zoals de nav bar wat meer naar voor brengen.
+  
 
   #### Muis en Toetsenbord 
   Hier korte omschrijving (met indien nodig afbeeldingen)
@@ -71,16 +74,35 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Met elastiekjes en dus minder makkelijk te gebruiken vingers is het wel te doen het is alleen lastig te gebruiken als je je telefoon in de zelfde hand houdt.
+  
+  De Shocks in je armen zijn erg irritant je begint hierdoor erg te bewegen hierdoor is het scherm lastig te lezen. 
+  
+  de ballon hooghoudt oefening is wel irritant om dan te focussen waar je was gebleven met lezen in een langere tekst, zeker met kleinere letters in grotere stukken tekst.
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
-
+  Lastig op te lossen via de site. Een screenreader helpt al met het voorlezen tegen het shacken, Grotere leters en knoppen kunnen het makkelijker maken om iets te lezen en of gebruiken.
+  
+  je zou het focus probleem kunnen oplossen doormiddel van disclosive progression. Grotere letters maakt het makelijker terug vinden. En bijvoorbeeld prikkels die de aandacht lokken naar het scherm. Bijvoorbeeld bewegingen.
+  
+  
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
   Hier korte omschrijving (met indien nodig afbeeldingen)
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  met bril getest dat het wazig werd er ontstond een soort glow waardoor felle kleuren nog feller werden en de wegvielen tegen het wit.
+  
+  Kleurenblind merkte je niet veel tegenslag de site is wel minder vrolijk aan kleuren.
+  
+  stip in het midden is de tekst amper tot niet te lezen
+  
+  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen).
+  
 
+  Beter contrast bij de tekst in kleur. 
+  
+  Grotere letters
+  
 </details>
 
 
