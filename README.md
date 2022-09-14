@@ -138,16 +138,18 @@ Verschil creëren zodat je weet wanneer je een link hebt. Dingen zoals de nav ba
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  
+  Het was voor mij lastig om niet naar de html te kijken van de site die ik namaak. Ik wil te graag dan precies het zelfde doen wat echt alles behalve       goed is. Waardoor ik zo laat opgang kwam van het schrijven van mijn site. Verder heb ik niet echt dingen waar ik tegen aan liep. Ik kom tot nu toe goed door de code heen met wat ik wil maken. Soms ik moet wel even wat extra opdrachten bij gaan maken van positionering zodat me dat ook wat makkelijker afgaan. Ik heb voor de eerste voortgang al wat geleerd van onderandere de linear-gradient en grid.
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
   | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Bente          | Ryan               | Lisa         | Tijn             |
+  | HTML accesible | Voortgang          | voortgang    | Javascript.      |
+  | Maken.         | dit als er tijd is | nog een punt |                  |
+  |                |                    |              |                  |
 
 
   ### Verslag van meeting
