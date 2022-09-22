@@ -1,0 +1,401 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+*, *::after, *::before {
+  box-sizing:border-box;  
+}
+
+button, summary {
+	cursor: pointer;
+}
+
+
+
+
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+	/* startje */
+	--color-text:rgb(255, 255, 255);
+	--color-background:black;
+}
+
+
+
+
+
+/****************/
+/* JOUW STYLING */
+/****************/
+
+/* jouw code */
+
+body {
+  color:var(--color-text);
+  background-color:var(--color-background);
+}
+
+
+/* Header van de pagina */
+header li {
+	display: flex;
+	text-decoration: none;
+}
+
+ul {
+	display: flex;
+	justify-content: space-between;
+	text-decoration: none;
+	align-items: center;
+}
+
+header img {
+
+width: 30vw;
+
+}
+
+
+h1 {
+	text-align: center;
+}
+
+
+
+/* 1ste slider*/
+article p {
+	position: relative;
+	font-size: medium;
+
+	padding: 2em;
+	bottom: -1em;
+	left: 0;
+	width: 90vw;
+	margin-top: -10em;
+	padding-bottom: 5em;
+
+	background-image:linear-gradient(transparent , red , black 80%);
+
+}
+
+article p::first-line {
+	text-transform: capitalize;
+	font-size: larger;
+}
+
+div a {
+
+	background-color: crimson;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 0.4em;
+	border-radius: 1em 0 1em 0;
+
+	position: relative;
+	
+	bottom: 14em;
+	left: 13em;
+	
+
+}
+
+
+
+article img {
+	width: 90vw;
+	height: 80vh;
+	background-image:linear-gradient(transparent, black);
+}
+
+section:first-of-type {
+	overflow: hidden;
+
+}
+
+section:first-of-type figure {
+	position: relative;
+	width: 300%;
+	margin: 0;
+	left: 0;
+	animation: 15s Slider;
+	animation-iteration-count: infinite;
+}
+
+section figure article {
+	float: left;
+	width: 33%;
+}
+
+@keyframes Slider {
+	0% {
+		left:0;
+	}
+	15% {
+		left: 0;
+	}
+	20%{
+		left: -100%;
+	}
+	35% {
+		left: -100%;
+	}
+	40% {
+		left: -200%;
+	}
+	55% {
+		left: -200%;
+	}
+	60% {
+		left: -100%;
+	}
+	75% {
+		left: -100%;
+	}
+	90% {
+		left: 0;
+	}
+	100% {
+		left: 0;
+	}
+}
+
+
+/* 2de section*/
+
+section:nth-of-type(2) img {
+	width: 100vw;
+}
+
+
+h2:first-of-type {
+	font-size: larger;
+	background-color: white;
+	color: black;
+	font-style: italic;
+	text-transform: uppercase;
+
+	padding: 1.25em;
+	padding-bottom: 0.5em;
+	margin-top: -1em;
+	border-radius: 0 0  9em 0;
+	width: 100%;
+}
+
+section:nth-of-type(2) p {
+	position: relative;
+	display: flex;
+	background-color: white;
+	padding: 1em;
+	border-radius: 9em 0 0 0;
+	text-align: right;
+	font-style: oblique;
+	color: black;
+}
+
+section:nth-of-type(2) a {
+
+	background-color: crimson;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 0.4em;
+	border-radius: 1em 0 1em 0;
+
+	position: absolute;
+	bottom: -32.1em;
+}
+
+
+/* de 2de slider */
+
+section:nth-of-type(3) figure img {
+	position: static;
+	width: 40vw;
+	height: 20%;
+	margin-left: -9em;
+	margin-bottom: -10em;
+
+}
+
+section:nth-of-type(3) {
+	overflow-x: scroll;
+	overflow-y: hidden;
+	display: flex;
+	gap: 1em;
+}
+
+
+section:nth-of-type(3) figure {
+	display: flex;
+	margin-left: 7em;
+	margin-bottom: -5em;
+}
+
+section:nth-of-type(3) figure:first-of-type {
+	display: flex;
+	margin-left: 10em;
+	margin-bottom: -5em;
+}
+
+
+
+section:nth-of-type(3) figure p {
+	margin-top: 5em;
+	margin-left: -8em;
+	background-color: black;
+	padding: 1em;
+}
+
+
+
+
+
+section:nth-of-type(4) h2 {
+	font-size: larger;
+	background-color: white;
+	color: black;
+	font-style: italic;
+	text-transform: uppercase;
+	text-align: center;
+
+	padding: 1.25em;
+	padding-bottom: 0.5em;
+	margin-top: 2em;
+	border-radius: 0 0  9em 9em;
+	width: 100%;
+}
+
+section:nth-of-type(4) p {
+	position: relative;
+	display: flex;
+	background-color: white;
+	padding: 1em;
+	border-radius: 0 9em 0 0;
+	text-align: left;
+	font-style: oblique;
+	color: black;
+}
+
+
+/* de 3de slider */
+
+
+
+section:nth-of-type(5) figure img {
+	position: static;
+	width: 40vw;
+	height: 20%;
+	margin-left: -9em;
+	margin-bottom: -10em;
+
+}
+
+section:nth-of-type(5) {
+	overflow-x: scroll;
+	overflow-y: hidden;
+	display: flex;
+	gap: 1em;
+}
+
+
+section:nth-of-type(5) figure {
+	display: flex;
+	margin-left: 8em;
+	margin-bottom: -5em;
+}
+
+section:nth-of-type(5) figure:first-of-type {
+	margin-left: 13em;
+}
+
+section:nth-of-type(5) figure:nth-of-type(2) {
+	margin-right: 5em;
+}
+
+
+section:nth-of-type(5) figure p {
+	margin-top: 5em;
+	margin-left: -8em;
+	background-color: black;
+	padding: 0.8em;
+}
+
+section:nth-of-type(4) a {
+
+	background-color: crimson;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 0.4em;
+	border-radius: 0 1em 0 1em;
+
+	position: absolute;
+	bottom: -58.7em;
+	left: 16.3em;
+}
+
+
+/****************/
+/**** FOOTER ****/
+/****************/
+
+footer {
+	background-color: #222;
+	width: 105vw;
+	height: 60vh;
+	margin-top: 2em;
+	margin-left: -1em;
+}
+
+footer img {
+	display: flex;
+	width: 12em;
+	justify-content: center;
+	margin-left: 6em;
+}
+
+footer ul a {
+	display: flex;;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	
+}
+
+footer ul {
+	margin-top: 2em;
+	list-style-type: none;
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+footer section {
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+footer section li {
+	margin-bottom: 0.7em;
+}
+
+footer ul:last-of-type {
+	display: flex;
+}
+
+
+footer ul:last-of-type li {
+	justify-content: space-around;
+	
+
+}
+
+
+footer ul:last-of-type img {
+	width: 20vw;
+}
