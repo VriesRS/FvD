@@ -48,6 +48,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Spider-man onscreen report 
+  
   <img src="./readme-images/spideypage_boven.png" width="375px" alt="omschrijving van de pagina">
   <img src="./readme-images/spideypage_info.png" width="375px" alt="omschrijving van de pagina">
   <img src="./readme-images/clickable_scrollwheel.png" width="375px" alt="omschrijving van de pagina">
