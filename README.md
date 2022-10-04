@@ -124,10 +124,10 @@ Verschil creëren zodat je weet wanneer je een link hebt. Dingen zoals de nav ba
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/.png" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/spideypage.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/.png" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/menumarvel.png" width="375px" alt="breakdown van een dynamisch deel">
 
 
 </details>
