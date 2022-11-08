@@ -34,7 +34,7 @@ button, summary {
 	--color-backgroundtext-spidey:red;
 	--color-headings-spidey:black;
 	--color-text-spidey:white;
-
+	--color-backgroundtext-spidey:blue;
 }
 
 
@@ -234,7 +234,7 @@ article p:first-of-type {
 
 div a {
 
-	background-color: crimson;
+	background-color: var(--color-button);
 	color: var(--color-text-button);
 	text-decoration: none;
 	text-transform: uppercase;
@@ -627,7 +627,7 @@ footer ul:last-of-type img {
 
 
 .page2 section:first-of-type div {
-	background-color: var(--color-background-text);
+	background-color: var(--color-background-spidey);
 	color: var(--color-text2);
 
 	width: 95vw;
@@ -637,6 +637,12 @@ footer ul:last-of-type img {
 
 .page2 section:first-of-type div p {
 	text-align: center;
+	border-radius: 0 0 5em 5em;
+
+	color: var(--color-headings);
+	background-color: var(--color-background-spidey);
+
+	padding-bottom: 2em;
 }
 
 
@@ -645,11 +651,16 @@ footer ul:last-of-type img {
 }
 
 
-
+.page2 h1{
+	background-color: var(--color-backgroundtext-spidey);
+}
 
 
 .page2 section:nth-of-type(2) p {
-	border-radius: 0 0 0 0;
+	border-radius: 1em 1em 1em 1em;
+
+	background-color: var(--color-backgroundtext-spidey);
+	color: red;
 
 }
 
@@ -660,18 +671,18 @@ footer ul:last-of-type img {
 
 .page2 h2 {
 	width: 60%;
+
+	background-color: var(--color-backgroundtext-spidey);
 }
 
 
 
-/*2de slider*/
+/*Animatie naar abilities*/
 
 
 .page2 section:nth-of-type(4) {
-	overflow-x: scroll;
-	overflow-y: hidden;
-	display: flex;
-	gap: 1em;
+	display: grid;
+	margin-left: 4vw;
 }
 
 .page2 section:nth-of-type(4) img {
@@ -679,7 +690,118 @@ footer ul:last-of-type img {
 	height: 45vh;
 }
 
+.page2 section:nth-of-type(4) article:nth-of-type(1) {
+	animation: agility 8s infinite;
+	animation-delay: 0.5s;
 
+}
+
+.page2 section:nth-of-type(4) article:nth-of-type(2) {
+	animation: awareness 6s infinite;
+	animation-delay: 0.5s;
+
+}
+
+.page2 section:nth-of-type(4) article:nth-of-type(3) {
+	animation: Webshooters 6s infinite;
+
+}
+
+.page2 section:nth-of-type(4) article:nth-of-type(4) {
+	animation: pincers 10s infinite;
+	animation-delay: 0.5s;
+
+}
+
+
+
+@keyframes awareness {
+	0% { transform: translate(1px, 1px) rotate(0deg); }
+  5% { transform: translate(-1px, -2px) rotate(-1deg); }
+  10% { transform: translate(-3px, 0px) rotate(1deg); }
+  15% { transform: translate(3px, 2px) rotate(0deg); }
+  20% { transform: translate(1px, -1px) rotate(1deg); }
+  25% { transform: translate(-1px, 2px) rotate(-1deg); }
+  30% { transform: translate(-3px, 1px) rotate(0deg); }
+  35% { transform: translate(3px, 1px) rotate(-1deg); }
+  40% { transform: translate(-1px, -1px) rotate(1deg); }
+  45% { transform: translate(1px, 2px) rotate(0deg); }
+  50% { transform: translate(1px, -2px) rotate(-1deg); }
+  55% { transform: translate(0px, 0px) rotate(0deg); }
+  100% { transform: translate(0px, 0px) rotate(0deg); }
+}
+
+@keyframes pincers {
+  0% { transform: scale(0%) }
+  5% { transform: scale(20%) }
+  10% { transform: scale(40%) }
+  15% { transform: scale(60%) }
+  20% { transform: scale(80%) }
+  25% { transform: scale(100%) translate(-1px, 2px) rotate(-1deg); }
+  30% { transform: translate(-3px, 1px) rotate(0deg);}
+  35% { transform: translate(3px, 1px) rotate(-1deg);}
+  40% { transform: translate(-1px, -1px) rotate(1deg); }
+  45% { transform: translate(-1px, -1px) rotate(1deg); }
+  50% { transform: translate(1px, 2px) rotate(0deg); }
+  55% { transform: translate(1px, -2px) rotate(-1deg); }
+  60% { transform: translate(1px, 1px) rotate(0deg); }
+  65% { transform: translate(-1px, -2px) rotate(-1deg); }
+  70% { transform: translate(0px, 0px) rotate(0deg);}
+  100% { transform: translate(0px, 0px) rotate(0deg);}
+}
+
+@keyframes agility {
+	0% {
+		 transform: skew(0deg); 
+		}
+
+	10% {
+		 transform: skew(15deg);
+		 }
+
+	20% {
+		 transform: skew(0deg);
+		 }
+
+	30% {
+		 transform: skew(-15deg); 
+		}
+
+	40% { 
+		transform: skew(0deg); 
+		}
+
+	100% {
+		transform: skew(0deg);
+
+	}
+}
+
+@keyframes Webshooters {
+	0% {
+		 transform: scale(100%) 
+	}
+
+	10% {
+		 transform: scale(75%);
+	}
+
+	20% {
+		 transform: scale(60%);
+	}
+
+	30% {
+		 transform: scale(50%); 
+	}
+
+	40% { 
+		transform: scale(100%);
+	}
+
+	100% {
+		transform: scale(100%);
+	}
+}
 
 .page2 h3 {
 	font-family: futura;
@@ -688,7 +810,10 @@ footer ul:last-of-type img {
 	color: var(--color-headings);
 
 	padding: 1em;
-	border-radius: 0 2em 0 0;
+	border-radius: 5em 5em 
+	2em 2em;
+
+	text-align: center;
 }
 
 .page2 h4 {
@@ -696,11 +821,13 @@ footer ul:last-of-type img {
 	color: var(--color-headings);
 
 	padding: 1em;
-	border-radius: 0 2em 0 0;
+	border-radius: 5em 5em 2em 2em;
 
 	font-family: futura;
 	text-transform: capitalize;
 	font-size: large;
+
+	text-align: center;
 }
 
 
